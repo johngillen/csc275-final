@@ -1,0 +1,28 @@
+nav {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+nav li {
+	float: left;
+}
+nav li:last-child {
+	float: none;
+	overflow: hidden;
+}
+nav a:link, nav a:visited {
+	background-color: #b1a9c9;
+	color: #100d1a;
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+}
+nav a:hover {
+	background-color: #100d1a;
+	color: #b1a9c9;
+}

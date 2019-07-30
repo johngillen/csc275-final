@@ -1,0 +1,27 @@
+.grid {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+.grid > * {
+	flex-grow: 1;
+
+	width: 250px;
+	border: 2px solid #b1a9c9;
+	margin: 8px;
+	padding: 8px;
+}
+.grid > a {
+	text-align: center;
+	text-decoration: none;
+	background: #100d1a;
+	color: #f9f5ff;
+}
+.grid > a:hover {
+	border: 2px solid #100d1a;
+	background: #b1a9c9;
+	color: #100d1a;
+}
+.grid audio, img, video {
+	width: 100%;
+}

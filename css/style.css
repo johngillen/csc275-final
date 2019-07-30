@@ -1,3 +1,87 @@
-html {
-	margin: 8px;
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0 auto 0 auto;
+	width: 70%;
+
+	background-color: #100d1a;
+	/*
+	background-image: url("/img/lain.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	*/
+
+	font-family: "Times New Roman", Times, serif;
+	letter-spacing: 2px;
+
+
+	color: #b1a9c9;
+}
+
+@media only screen and (max-width: 768px) {
+   	body {
+   	    width: auto;
+   	    margin: 0 8px 0 8px;
+   	}
+}
+
+header h1 {
+	padding: 8px;
+}
+
+main {
+	flex: 1;
+	text-align: justify;
+}
+
+footer {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+h1 {
+	letter-spacing: 8px;
+	border-bottom: 2px solid #b1a9c9;
+}
+h2 {
+	letter-spacing: 4px;
+	border-bottom: 2px solid #b1a9c9;
+}
+h3 {
+	letter-spacing: 2px;
+	border-bottom: 2px solid #b1a9c9;
+}
+h4 {
+	letter-spacing: 1px;
+	border-bottom: 2px solid #b1a9c9;
+}
+h6 {
+	letter-spacing: 1px;
+	font-style: italic;
+}
+p {
+	letter-spacing: 2px;
+}
+
+a {
+	color: #b1a9c9;
+}
+a:link {
+	color: #b1a9c9;
+}
+a:visited {
+	color: #b1a9c9;
+}
+a:hover {
+	color: #b1a9c9;
+}
+a:active {
+	color: #b1a9c9;
+}
+
+img, audio, video {
+	max-width: 100%;
 }
