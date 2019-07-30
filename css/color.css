@@ -5,3 +5,8 @@
 	
 	background-color: #000000;
 }
+.colorbox > p {
+	background-color: #100d1a;
+	display: inline-block;
+	padding: 8px;
+}
